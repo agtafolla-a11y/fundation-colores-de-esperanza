@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+    <!--1, los metadatos-->
+<meta charset="UTF-8">
+<meta name="description" content="Colores de esperanza">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Aylin Tafolla">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--2,título de la página que aparece en el buscador-->
+
+<!--2. titulo de la pagina que aparece en el buscador-->    
+<title>Colores de esperanza</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<!--hasta acá va el head-->
+<body>
+    <header class="header">
+        <div class="container header-inner">
+        <a class="logo" href="#">
+            <img src="img/IMG:logo.png" alt="Logo Fundación Colores de esperanza" height="80" />
+            
+            </a>
+        
+    <nav class="Inicio">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a class="btn-dona" href="#donar">Dona</a></li>
+
+
+        </ul>
+    </nav>
+</div>
+    </header>
+    
+<main>
+    <section class="hero video-hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+          <source src="IMG/video.mp4" type="video/mp4" />
+        </video>
+  
+        <div class="hero-overlay"></div>
+  
+        <div class="hero-content container">
+            <div class="hero-text">
+              <h2>Ayuda a comunidades vulnerables</h2>
+
+
+              <div class="hero-actions">
+                <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSf9IO9kEuJO1bDk3nJ-y0xH39aNqXG5oue1zhz_lV5R7J43Fw/viewform?usp=dialog">Dona</a>
+                <a class="btn outline" href="#voluntariado">Sé parte</a>
+              </div>
+            </div>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-number">+2.000</div>
+            <div class="stat-label">Prótesis nuevas</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+34.000</div>
+            <div class="stat-label">Niños rescatados</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+12.000</div>
+            <div class="stat-label">Jóvenes en escuelas</div>
+          </div>
+        </div>
+      </div>
+          </div>
+        </section>
+
+        <section id="proyectos" class="projects container">
+          <h2>Proyectos en México</h2>
+          <p class="lead">Desarrollamos nuevas iniciativas para mejorar la calidad de vida para niños, niñas y jóvenes en Guadalajara, Monterrey y CDMX. Explora nuestros proyectos:</p>
+    
+          <div class="project-cards">
+            <article class="card">
+              <div class="card-img" id="Guadalajara"></div>
+              <div class="card-body">
+                <h3>Guadalajara - Protección de la infancia</h3>
+                <p>Guadalajara impulsa programas para proteger a la infancia mediante apoyo comunitario, prevención y atención a niños en situación vulnerable. Su objetivo es garantizar entornos seguros y el respeto a sus derechos.
+                  </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-img" id="Monterrey"></div>
+              <div class="card-body">
+                <h3>Monterrey - Nuevas prótesis</h3>
+                <p>Monterrey desarrolla prótesis innovadoras con tecnología avanzada y materiales modernos. Estos proyectos buscan mejorar la movilidad y calidad de vida de las personas que las necesitan.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-img" id="CDMX"></div>
+              <div class="card-body">
+                <h3>CDMX – Escuelas y servicios médicos</h3>
+                <p>La CDMX crea nuevas escuelas y amplía servicios médicos para responder al crecimiento de la población. Con ello mejora el acceso a la educación y la atención en salud.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+    
+        <!--Seccion de suscripcion-->
+        <section id="contacto" class="newsletter">
+          <div class="container newsletter-inner">
+            <div>
+              <h2>¡No te pierdas lo último!</h2>
+              <p>Suscríbete para recibir noticias e historias.</p>
+            </div>
+            <form id="subscribeForm" class="subscribe-form" novalidate>
+              <input id="email" type="email" placeholder="Tu correo electrónico" required />
+              <button class="btn primary" type="submit">Suscribirme</button>
+            </form>
+            <div id="formMessage" class="form-message"></div>
+          </div>
+    </section>
+        <!--Seccion de contactos-->
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+          <div class="footer-col">
+            <h4>Sobre la fundación</h4>
+            <p>Somos una empresa dedicada a proteger y cuidar a niños, niñas y jóvenes en situación de calle con alguna discapacidad, les proveemos y cambiamos la vida.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Enlaces</h4>
+            <ul>
+              <li><a href="#quienes">Quiénes somos</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#impacto">Impacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contacto</h4>
+            <address>
+              Cerrada Joaquin Montenegro 9<br/>Tultepec, EdoMex<br/>
+              <a href="mailto:aylin.tafolla@hotmail.com">aylin.tafolla@hotmail.com</a>
+            </address>
+          </div>
+        </div>
+
+        <!-- Redes sociales -->
+  <div class="footer-social">
+    <div class="container social-icons">
+      <a href="https://www.facebook.com/aylin.tafolla.5" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/aylintafolla?fbclid=IwY2xjawONfkpleHRuA2FlbQIxMABicmlkETF2dE1BOWs3anBJTnpoYzAwc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsU73s_G6aDl5v47ADq1sHaihX_wGh9GqOAYP2bZe1dD-wH110Pp7DMxADeN_aem_OoxlRvpTIRLIN4SWw9k_Ng" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@aylintafolla29" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/feed/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://x.com/aylin_tafo4946?s=21" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+     
+    </div>
+  </div>
+
+
+        <div class="footer-bottom">
+          <div class="container">©️ <span id="anio"></span> Colores de esperanza.</div>
+        </div>
+      </footer>
+    
+    </body>
+    </html>     
